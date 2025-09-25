@@ -1,0 +1,15 @@
+Seela wants to find the sum of even and odd numbers in the between range values.could you please help her to implements the program.
+a = int(input())
+b = int(input())
+if (a <= 1 or b >= 100):
+    print("Invalid Input")
+else:
+    even_sum = 0
+    odd_sum = 0
+    for i in range(a, b + 1):
+        if i % 2 == 0:
+            even_sum += i
+        else:
+            odd_sum += i
+    print(f"The Even Sum value is {even_sum:.2f}")
+    print(f"The Odd Sum value is {odd_sum:.2f}")

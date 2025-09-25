@@ -1,0 +1,6 @@
+Riya wants to find the sum of range values. could you please help her to implements the program.
+a = int(input())
+b = int(input())
+total = sum(range(a, b + 1))
+l=float(total)
+print(f"The sum of Range value from {a} to {b} is {l}")
